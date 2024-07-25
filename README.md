@@ -1,11 +1,11 @@
-Template Mod for 70CentsApple's Mods
+<div align="center">
 
-replace:
-```plaintext
-Template Mod
-TemplateMod
-template_mod
-templatemod
-[CHANGE_ME]
-示例模组 // as default zh_cn translation
-```
+<img alt="LOGO" src="./src/main/resources/icon.png" width="256" height="256" />
+
+## Word Overflow
+
+</div>
+
+When using custom fonts in Minecraft, you might go crazy over signs with truncated text and trimmed book pages. This mod will be a solution!
+
+This mod modifies the text truncation logic on sign blocks and book screen.

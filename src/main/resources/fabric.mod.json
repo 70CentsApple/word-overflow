@@ -3,15 +3,15 @@
   "id": "${id}",
   "version": "${version}",
 
-  "name": "Template Mod",
-  "description": "Template Mod [CHANGE_ME]",
+  "name": "Word Overflow",
+  "description": "No more trimming texts on book screens and sign blocks!",
   "authors": [
     "70CentsApple"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/[CHANGE_ME]",
-    "sources": "https://github.com/70CentsApple/[CHANGE_ME]",
-    "issues": "https://github.com/70CentsApple/[CHANGE_ME]/issues",
+    "homepage": "https://modrinth.com/mod/word-overflow",
+    "sources": "https://github.com/70CentsApple/word-overflow",
+    "issues": "https://github.com/70CentsApple/word-overflow/issues",
     "bilibili": "https://space.bilibili.com/442361724"
   },
 
@@ -21,20 +21,15 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "net.apple70cents.templatemod.TemplateMod"
-    ],
-    "modmenu": [
-      "net.apple70cents.templatemod.config.ModMenuScreen"
+      "net.apple70cents.wordoverflow.WordOverflow"
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "word_overflow.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.4",
-    "{{FABRIC_API}}": "*",
-    "{{CLOTH_CONFIG}}": "*"
+    "fabricloader": ">=0.11.4"
   },
   "suggests": {
     "modmenu": "*"
@@ -42,7 +37,8 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.modrinth": "https://modrinth.com/mod/[CHANGE_ME]"
+        "modmenu.modrinth": "https://modrinth.com/mod/word-overflow",
+        "modmenu.github_releases": "https://github.com/70CentsApple/word-overflow/releases"
       }
     }
   }
